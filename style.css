@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+:root {
+    --button--bg: purple;
+    --body--bg: yellow;
+    --button--text: white;
+    --body--text: black;
+}
+.a {
+    background-color: var(--body--bg);
+    color: var(--body--text);
+}
+.a.dark{
+    --button--bg: rgb(44, 44, 44);
+    --body--bg: skyblue;
+    --button--text: white;
+    --body--text: red;
+}
+button{
+    background-color: var(--button--bg);
+    color: var(--button--text);
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+}
+.b{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+
+    /* bring in to the center */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c{
+    width: 1000px;
+    height: inherit;
+    background-color: hsl(0, 0%, 12%);
+
+    /* bring in to the center */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d{
+    width: 450px;
+    height: auto;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 30px;
+    padding-bottom: 30px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 38.5%;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 11px;
+    margin-bottom: 7px;
+}
+p{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 17px;
+}
+span p{
+    color: hsl(75, 94%, 57%);
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+.e{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.f {
+    width: 340px;
+    height: 59px;
+    border: none;
+    color: white;
+    background-color: hsl(0, 5%, 15%);
+    border-radius: 12px;
+    font-weight: 700;
+}
+.f:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
